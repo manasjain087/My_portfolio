@@ -1,0 +1,81 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f4f4f4;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:#222;
+    color:white;
+    padding:15px 40px;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+}
+
+nav ul li{
+    margin-left:20px;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration:none;
+}
+
+.search-box input{
+    padding:8px;
+}
+
+.search-box button{
+    padding:8px 12px;
+    cursor:pointer;
+}
+
+section{
+    min-height:100vh;
+    padding:80px 50px;
+    text-align:center;
+}
+
+#home img{
+    width:180px;
+    border-radius:50%;
+    margin-bottom:20px;
+}
+
+h1{
+    margin-bottom:10px;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:20px;
+    background:#007bff;
+    color:white;
+    padding:12px 20px;
+    text-decoration:none;
+    border-radius:5px;
+}
+
+.project-card{
+    background:white;
+    padding:20px;
+    margin:20px auto;
+    width:60%;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+#contact p{
+    margin-top:15px;
+}
